@@ -247,7 +247,7 @@ export const updateStaticPageSriHashes = async (
 							// after removing it, updatedSrc may or may not start with a slash
 							const resourcePath = resolve(
 								distDir,
-								updatedSrc.startsWith('/') ? updatedSrc : `.${updatedSrc}`,
+								updatedSrc.startsWith('/') ? `.${updatedSrc}` : updatedSrc,
 							)
 							resourceContent = await readFile(resourcePath)
 						} else {
