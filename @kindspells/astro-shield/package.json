@@ -64,7 +64,7 @@
 	},
 	"devDependencies": {
 		"@types/node": "^22.15.3",
-		"astro": "^5.7.8",
+		"astro": "^4.16.18",
 		"get-tsconfig": "^4.10.0",
 		"rollup": "^4.40.1",
 		"rollup-plugin-dts": "^6.2.1",
