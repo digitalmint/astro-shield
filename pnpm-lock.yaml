@@ -12,17 +12,17 @@ importers:
         specifier: ^1.9.4
         version: 1.9.4
       '@moonrepo/cli':
-        specifier: ^1.35.1
-        version: 1.35.1
+        specifier: ^1.35.4
+        version: 1.35.4
       '@vitest/coverage-v8':
         specifier: ^3.1.2
-        version: 3.1.2(vitest@3.1.2(@types/debug@4.1.12)(@types/node@22.15.3)(yaml@2.6.0))
+        version: 3.1.2(vitest@3.1.2(@types/debug@4.1.12)(@types/node@22.15.3))
       publint:
         specifier: ^0.3.12
         version: 0.3.12
       vitest:
         specifier: ^3.1.2
-        version: 3.1.2(@types/debug@4.1.12)(@types/node@22.15.3)(yaml@2.6.0)
+        version: 3.1.2(@types/debug@4.1.12)(@types/node@22.15.3)
 
   '@kindspells/astro-shield':
     devDependencies:
@@ -31,7 +31,7 @@ importers:
         version: 22.15.3
       astro:
         specifier: ^5.7.8
-        version: 5.7.8(@types/node@22.15.3)(aws4fetch@1.0.20)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.6.0)
+        version: 5.7.10(@types/node@22.15.3)(aws4fetch@1.0.20)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.6.0)
       get-tsconfig:
         specifier: ^4.10.0
         version: 4.10.0
@@ -49,19 +49,19 @@ importers:
         version: 5.8.3
       vite:
         specifier: ^6.3.3
-        version: 6.3.3(@types/node@22.15.3)(yaml@2.6.0)
+        version: 6.3.4(@types/node@22.15.3)(yaml@2.6.0)
       vitest:
         specifier: ^3.1.2
-        version: 3.1.2(@types/debug@4.1.12)(@types/node@22.15.3)(yaml@2.6.0)
+        version: 3.1.2(@types/debug@4.1.12)(@types/node@22.15.3)
 
   '@kindspells/astro-shield/src/e2e/fixtures/dynamic':
     dependencies:
       '@astrojs/node':
         specifier: ^9.2.1
-        version: 9.2.1(astro@5.7.8(@types/node@22.15.3)(aws4fetch@1.0.20)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.6.0))
+        version: 9.2.1(astro@5.7.10(@types/node@22.15.3)(aws4fetch@1.0.20)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.6.0))
       astro:
         specifier: ^5.7.8
-        version: 5.7.8(@types/node@22.15.3)(aws4fetch@1.0.20)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.6.0)
+        version: 5.7.10(@types/node@22.15.3)(aws4fetch@1.0.20)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.6.0)
     devDependencies:
       '@kindspells/astro-shield':
         specifier: workspace:*
@@ -71,10 +71,10 @@ importers:
     dependencies:
       '@astrojs/node':
         specifier: ^9.2.1
-        version: 9.2.1(astro@5.7.8(@types/node@22.15.3)(aws4fetch@1.0.20)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.6.0))
+        version: 9.2.1(astro@5.7.10(@types/node@22.15.3)(aws4fetch@1.0.20)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.6.0))
       astro:
         specifier: ^5.7.8
-        version: 5.7.8(@types/node@22.15.3)(aws4fetch@1.0.20)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.6.0)
+        version: 5.7.10(@types/node@22.15.3)(aws4fetch@1.0.20)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.6.0)
     devDependencies:
       '@kindspells/astro-shield':
         specifier: workspace:*
@@ -84,10 +84,10 @@ importers:
     dependencies:
       '@astrojs/node':
         specifier: ^9.2.1
-        version: 9.2.1(astro@5.7.8(@types/node@22.15.3)(aws4fetch@1.0.20)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.6.0))
+        version: 9.2.1(astro@5.7.10(@types/node@22.15.3)(aws4fetch@1.0.20)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.6.0))
       astro:
         specifier: ^5.7.8
-        version: 5.7.8(@types/node@22.15.3)(aws4fetch@1.0.20)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.6.0)
+        version: 5.7.10(@types/node@22.15.3)(aws4fetch@1.0.20)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.6.0)
     devDependencies:
       '@kindspells/astro-shield':
         specifier: workspace:*
@@ -97,10 +97,10 @@ importers:
     dependencies:
       '@astrojs/node':
         specifier: ^9.2.1
-        version: 9.2.1(astro@5.7.8(@types/node@22.15.3)(aws4fetch@1.0.20)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.6.0))
+        version: 9.2.1(astro@5.7.10(@types/node@22.15.3)(aws4fetch@1.0.20)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.6.0))
       astro:
         specifier: ^5.7.8
-        version: 5.7.8(@types/node@22.15.3)(aws4fetch@1.0.20)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.6.0)
+        version: 5.7.10(@types/node@22.15.3)(aws4fetch@1.0.20)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.6.0)
     devDependencies:
       '@kindspells/astro-shield':
         specifier: workspace:*
@@ -110,7 +110,7 @@ importers:
     dependencies:
       astro:
         specifier: ^5.7.8
-        version: 5.7.8(@types/node@22.15.3)(aws4fetch@1.0.20)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.6.0)
+        version: 5.7.10(@types/node@22.15.3)(aws4fetch@1.0.20)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.6.0)
     devDependencies:
       '@kindspells/astro-shield':
         specifier: workspace:*
@@ -126,14 +126,14 @@ importers:
         version: 0.34.1
       sst:
         specifier: ^3.13.20
-        version: 3.13.20
+        version: 3.14.11
     devDependencies:
       '@astrojs/check':
         specifier: ^0.9.4
         version: 0.9.4(typescript@5.8.3)
       '@astrojs/starlight':
         specifier: ^0.34.1
-        version: 0.34.1(astro@5.7.8(@types/node@22.15.3)(aws4fetch@1.0.20)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.6.0))
+        version: 0.34.2(astro@5.7.10(@types/node@22.15.3)(aws4fetch@1.0.20)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.6.0))
       '@astrojs/ts-plugin':
         specifier: ^1.10.4
         version: 1.10.4
@@ -142,7 +142,7 @@ importers:
         version: link:../@kindspells/astro-shield
       astro:
         specifier: ^5.7.8
-        version: 5.7.8(@types/node@22.15.3)(aws4fetch@1.0.20)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.6.0)
+        version: 5.7.10(@types/node@22.15.3)(aws4fetch@1.0.20)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.6.0)
       typescript:
         specifier: ^5.8.3
         version: 5.8.3
@@ -201,8 +201,8 @@ packages:
   '@astrojs/sitemap@3.3.1':
     resolution: {integrity: sha512-GRnDUCTviBSNfXJ0Jmur+1/C+z3g36jy79VyYggfe1uNyEYSTcmAfTTCmbytrRvJRNyJJnSfB/77Gnm9PiXRRg==}
 
-  '@astrojs/starlight@0.34.1':
-    resolution: {integrity: sha512-FmgS3R4SfLX8hmXoxNG5w1YicAs29Ix8A1cqczHEB4zJzIZVrvPiTEaQffJztqXTWERZtSZhHsckyDWImOPzJA==}
+  '@astrojs/starlight@0.34.2':
+    resolution: {integrity: sha512-/XwBXQ4ZyQBEETZIPw2pa+UsKawkpRVO7CF6QVpOmteGfUxCrsD3n26G0OsnWHh0Gfo67QkAqM0FsGmDuNUVHw==}
     peerDependencies:
       astro: ^5.5.0
 
@@ -880,42 +880,42 @@ packages:
     resolution: {integrity: sha512-oxzMzYCkZHMntzuyerehK3fV6A2Kwh5BD6CGEJSVDU2QNEhfLOptf2X7esQgaHZXHZY0oHmMsOtIDLP71UJXgA==}
     engines: {node: '>=18'}
 
-  '@moonrepo/cli@1.35.1':
-    resolution: {integrity: sha512-8PVtzLKbzZHkFPHy/r1sPbV5SL/1aj+b+l8RF5NSRrQ3u3110S5FVa2dMihDOseSNkE9T9wKj6mTM6UGxoDs6A==}
+  '@moonrepo/cli@1.35.4':
+    resolution: {integrity: sha512-LL31ar1UVxYsxePXRyRBKjc6NKJxkeTWhew+BFVO9AYAxuz85wDDqYMJAZQ/iV5CBXgZVorCU40vbhMD408I5Q==}
     hasBin: true
 
-  '@moonrepo/core-linux-arm64-gnu@1.35.1':
-    resolution: {integrity: sha512-//zNfY8R9fyBhfvGD1MbNcnlOI9ikcukBg01tsGYJywHefIZtR/4F2XcJhHgKSxx6bqXEBch5d6ChLSHVROKwA==}
+  '@moonrepo/core-linux-arm64-gnu@1.35.4':
+    resolution: {integrity: sha512-g8qoCyvENF5a6GhYCsPuuF+r7UngHBZxRWAPTwkLUW92CrM7j1LMkEh+qIbjhVC6BwFcrxjh7Zo+pCxh4mQOow==}
     cpu: [arm64]
     os: [linux]
 
-  '@moonrepo/core-linux-arm64-musl@1.35.1':
-    resolution: {integrity: sha512-a9VjFuu99qt54MHChpwhtqmDd9BcbeNDjDVvDuHEgrG7Gb7V+RrHhOLZZWi7xKSEq1nGQeiKZrKi4Orx71HXxg==}
+  '@moonrepo/core-linux-arm64-musl@1.35.4':
+    resolution: {integrity: sha512-oPuP/SJTGvlvQYBM6u4Lag0C7wRp9uc4J8+bVckRyoystaf3QmUGEVS0GOHrAxpLMZ9yOgOboVmPqjgeFUZaqg==}
     cpu: [arm64]
     os: [linux]
 
-  '@moonrepo/core-linux-x64-gnu@1.35.1':
-    resolution: {integrity: sha512-h6jC6br9ldu3ceM4oRyRAIfas2PfFGht1LNOiCSljaGq+KPqOveregu4M90j3QOsco7TNcAK52z2ds25EITiOQ==}
+  '@moonrepo/core-linux-x64-gnu@1.35.4':
+    resolution: {integrity: sha512-bPiPO5yS9fYpMd0yD8dG/katbbqp5XxRPcTLgfEjA9zhCU6/fg7xGiQVHCjPUG1UgCmeW8p+NVuqWEZjDKvsMg==}
     cpu: [x64]
     os: [linux]
 
-  '@moonrepo/core-linux-x64-musl@1.35.1':
-    resolution: {integrity: sha512-NApPIwB1HeerRxBM2msSsqXT5Bs3IuGRDWEGuG/TZ2EaUqrgH9pUtIMf2diLw3LNevMDYxGiUAKduzNw9BXrcA==}
+  '@moonrepo/core-linux-x64-musl@1.35.4':
+    resolution: {integrity: sha512-VaIhwIXIuaHO7rlTa/IspakzR1TECA1vrnp9KwO7okZ+fVKPKinbGBxVSLmGb/5o5sI5v0I6g0LJ8RA+2QoYow==}
     cpu: [x64]
     os: [linux]
 
-  '@moonrepo/core-macos-arm64@1.35.1':
-    resolution: {integrity: sha512-3TeB30kO8PPGh642ATgi5NCLm9X6UHl3/sT603oZ+T2mKZLkN8ZsnAs8+VxhZnnjoAnb+Tad3Q+UfYkQfHV+SQ==}
+  '@moonrepo/core-macos-arm64@1.35.4':
+    resolution: {integrity: sha512-DAidD4OSFByM83nNuyOqlFPg4mcPqgpD3aegJjsxZ+OU9xDdwu3u4FyZY0tAJl2SM9lkpZjEeY1B70+kHXU+mw==}
     cpu: [arm64]
     os: [darwin]
 
-  '@moonrepo/core-macos-x64@1.35.1':
-    resolution: {integrity: sha512-IuPIyJwATvlWVkw/AptneE7FnFDiVJAS9x3iHXCceX3WRz2WwQBe2zTbkvmAmGZR7Znv/GaJWvdAlBrKCEDEuw==}
+  '@moonrepo/core-macos-x64@1.35.4':
+    resolution: {integrity: sha512-kDOAHuqgMtwk4F4CiLLvgJaGyCVdey2KT9yclYBb9tFwGtME2jICrk7n4Je2aJlGz/4F56UPHFVrPuwXVkwf1w==}
     cpu: [x64]
     os: [darwin]
 
-  '@moonrepo/core-windows-x64-msvc@1.35.1':
-    resolution: {integrity: sha512-SBOprAneaRn9kG2XB9smHAOnYdWztQqG1xO8V01HFdIY7GSZBI/SSzmqac6b1qVsTfFXQx2wiMs7FJOq5HSLpQ==}
+  '@moonrepo/core-windows-x64-msvc@1.35.4':
+    resolution: {integrity: sha512-PseWg5d5QmxWG/IAXMqnEn3GRzlfJ1e/rUu2zFOtVvZ6vmsr9t86Ss4R5mg9ewTAyG9IlH4a2EKxI4+xK0CJVA==}
     cpu: [x64]
     os: [win32]
 
@@ -1290,8 +1290,8 @@ packages:
   astro-sst@3.1.3:
     resolution: {integrity: sha512-adAsf77pU8+xbh+02cKv35p81sM0RwkiGO+PmJPZWTtt6Kz7fyd3Z8e22ji1KA0t7Ls/KUz5+2nBCAbMz1Lu/w==}
 
-  astro@5.7.8:
-    resolution: {integrity: sha512-82ku6+wOGXP5c5+YOkBzEGJ/k8/GVSeN0xD/TNUrPf5nvWpGGpngxtUAwuruKF6wIxRC1/SwlUVCs/4QT98iZQ==}
+  astro@5.7.10:
+    resolution: {integrity: sha512-9TQcFZqP2w6//JXXUHfw8/5PX7KUx9EkG5O3m+hISuyeUztvjY1q5+p7+C5HiXyg24Zs3KkpieoL5BGRXGCAGA==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -1542,10 +1542,6 @@ packages:
 
   destr@2.0.5:
     resolution: {integrity: sha512-ugFTXCtDZunbzasqBxrK93Ik/DRYsO6S/fedkWEMKqt04xZ4csmnmwGDBAb07QWNaGMAmnTIemsYZCksjATwsA==}
-
-  detect-libc@2.0.3:
-    resolution: {integrity: sha512-bwy0MGW55bG41VqxxypOsdSdGqLwXPI/focwgTYCFMbdUiBAxLg9CFzG08sz2aqzknwiX7Hkl0bQENjg8iLByw==}
-    engines: {node: '>=8'}
 
   detect-libc@2.0.4:
     resolution: {integrity: sha512-3UDv+G9CsCKO1WKMGw9fwq/SWJYbI0c5Y7LU1AXYoDdbhE2AHQ6N6Nb34sG8Fj7T5APy8qXDCKuuIHd1BR0tVA==}
@@ -2810,33 +2806,48 @@ packages:
   space-separated-tokens@2.0.2:
     resolution: {integrity: sha512-PEGlAwrG8yXGXRjW32fGbg66JAlOAwbObuqVoJpv/mRgoWDQfgH1wDPvtzWyUSNAXBGSk8h755YDbbcEy3SH2Q==}
 
-  sst-darwin-arm64@3.13.20:
-    resolution: {integrity: sha512-vjKpQeVG0abQ/sqhx97VM55L8ERztbHyAXQieNU2T6TerOo4tnAFiMofp3f2fVy59csC9CYg0DrTiM2DhQc3SA==}
+  sst-darwin-arm64@3.14.11:
+    resolution: {integrity: sha512-ZaItC22QX+r/ZbewJvYuZtZ3K4/y9k89xkqSX+T5IrXTOLWO53cHaWvgS/VoKpb5dIoS87cwmD3Qh1YvvNiZ+Q==}
     cpu: [arm64]
     os: [darwin]
 
-  sst-darwin-x64@3.13.20:
-    resolution: {integrity: sha512-W4SnuAyGTb95o+tqPof2fR6w3XIcKv6K9raQg9QZ+E65zbgYsfT9BdnkPxnj9wCwNUfWpMa1gQe+rMzCtv9ElQ==}
+  sst-darwin-x64@3.14.11:
+    resolution: {integrity: sha512-P2kPLeCc84spjsH90NFrou8yfkonl5USAvRX+Z3esPQV+bOG3ZQSG2NyL+qBj3wq80CfPo3UvYRua3KSt1zIXQ==}
     cpu: [x64]
     os: [darwin]
 
-  sst-linux-arm64@3.13.20:
-    resolution: {integrity: sha512-xDSM9Nra64IiWf6PRwb6EJ/2+QHeg4OohhC1gHY06vUqTi8QVklYaFDZWjMpSUfmKHf+QZp3jMS/mg4JVToj+A==}
+  sst-linux-arm64@3.14.11:
+    resolution: {integrity: sha512-8wWqJWc2th/jceseKuAiLASS/8OaDqhEdE+rvtXEGruk7TB4e/2vJYvMu+JKDxH8alFd6idxktZfu62gXyfedQ==}
     cpu: [arm64]
     os: [linux]
 
-  sst-linux-x64@3.13.20:
-    resolution: {integrity: sha512-nZVOrnRsQn3oCyCCHFucdUjxyFurOvxTFDTqiiXcIqUHaKrydWeTU8fgRz5Vc31vbFgVqtoRwT8VSyfEJTAJAQ==}
+  sst-linux-x64@3.14.11:
+    resolution: {integrity: sha512-k27KpDMphNq3AjuQ5hbr8lB6VPWJDONbvojszgP+MJtr0g82MMx6+igAzMQ1HtvpkYT9ck7vdXELqrRx7ohonQ==}
     cpu: [x64]
     os: [linux]
 
-  sst-linux-x86@3.13.20:
-    resolution: {integrity: sha512-coJ1lnn5NJmYuXZtBrulXivLXTXBxS1r7eRj0WDrFaJ4copZuC/USmclxueDdqAfAWsh3nqQWqPxhoT8lE0Ouw==}
+  sst-linux-x86@3.14.11:
+    resolution: {integrity: sha512-AhZOpmcpE8N7bG7zFUN1RUKf/MIZsMBgjfhBB6xcdorf9fnTOxQqqgzPt4x++BqtAXGHk9q5gfCYtMRrDME6PA==}
     cpu: [x86]
     os: [linux]
 
-  sst@3.13.20:
-    resolution: {integrity: sha512-z2BWYfbeF5cdpuzzsdfL2Gd4VB4TMoL19ALthj1tfJK+XIMpjP1EIaMzFwCODcxhYQs1wH6lAeTgG6DYxJwBZg==}
+  sst-win32-arm64@3.14.11:
+    resolution: {integrity: sha512-aLOqjFLNJ2CD9nZMbrOuYOH43sTl/PT4EmST+f4+TfnM6rrqzsreQJVZ+zeyKfv3t88ilgB+KWsdvGblKu2+bg==}
+    cpu: [arm64]
+    os: [win32]
+
+  sst-win32-x64@3.14.11:
+    resolution: {integrity: sha512-TXBzZRkcZqmuwLOdgU2MDEiYUDw/iKMamw0gfSUKfNDb28mCBEv/hvpV6qBO4gKZjq7dbMEbjmU2Ra9XeHoO9Q==}
+    cpu: [x64]
+    os: [win32]
+
+  sst-win32-x86@3.14.11:
+    resolution: {integrity: sha512-CKXutjc+yID9FGbRQRzCbCIofB9WZ2XTya6l6x/KYhddAGSHWMasKlZbijkHF759zGUsTp4b3gb231xubmBrQA==}
+    cpu: [x86]
+    os: [win32]
+
+  sst@3.14.11:
+    resolution: {integrity: sha512-XF7SdXK1g8mLDW2onDsNzyHmmYvMotXtAWGzyT0bUWf1ZsLUsinVBvts4+85b9t9wXPD5fZKFmZdKzPG5g4a0w==}
     hasBin: true
 
   stackback@0.0.2:
@@ -3146,8 +3157,8 @@ packages:
       terser:
         optional: true
 
-  vite@6.3.3:
-    resolution: {integrity: sha512-5nXH+QsELbFKhsEfWLkHrvgRpTdGJzqOZ+utSdmPTvwHmvU6ITTm3xx+mRusihkcI8GeC7lCDyn3kDtiki9scw==}
+  vite@6.3.4:
+    resolution: {integrity: sha512-BiReIiMS2fyFqbqNT/Qqt4CVITDU9M9vE+DKcVAsB+ZV0wvTKd+3hMbkpxz1b+NmEDMegpVbisKiAZOnvO92Sw==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
@@ -3529,12 +3540,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/mdx@4.2.5(astro@5.7.8(@types/node@22.15.3)(aws4fetch@1.0.20)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.6.0))':
+  '@astrojs/mdx@4.2.5(astro@5.7.10(@types/node@22.15.3)(aws4fetch@1.0.20)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.6.0))':
     dependencies:
       '@astrojs/markdown-remark': 6.3.1
       '@mdx-js/mdx': 3.1.0(acorn@8.14.1)
       acorn: 8.14.1
-      astro: 5.7.8(@types/node@22.15.3)(aws4fetch@1.0.20)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.6.0)
+      astro: 5.7.10(@types/node@22.15.3)(aws4fetch@1.0.20)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.6.0)
       es-module-lexer: 1.7.0
       estree-util-visit: 2.0.0
       hast-util-to-html: 9.0.5
@@ -3548,10 +3559,10 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/node@9.2.1(astro@5.7.8(@types/node@22.15.3)(aws4fetch@1.0.20)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.6.0))':
+  '@astrojs/node@9.2.1(astro@5.7.10(@types/node@22.15.3)(aws4fetch@1.0.20)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.6.0))':
     dependencies:
       '@astrojs/internal-helpers': 0.6.1
-      astro: 5.7.8(@types/node@22.15.3)(aws4fetch@1.0.20)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.6.0)
+      astro: 5.7.10(@types/node@22.15.3)(aws4fetch@1.0.20)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.6.0)
       send: 1.2.0
       server-destroy: 1.0.1
     transitivePeerDependencies:
@@ -3567,17 +3578,17 @@ snapshots:
       stream-replace-string: 2.0.0
       zod: 3.24.3
 
-  '@astrojs/starlight@0.34.1(astro@5.7.8(@types/node@22.15.3)(aws4fetch@1.0.20)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.6.0))':
+  '@astrojs/starlight@0.34.2(astro@5.7.10(@types/node@22.15.3)(aws4fetch@1.0.20)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.6.0))':
     dependencies:
       '@astrojs/markdown-remark': 6.3.1
-      '@astrojs/mdx': 4.2.5(astro@5.7.8(@types/node@22.15.3)(aws4fetch@1.0.20)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.6.0))
+      '@astrojs/mdx': 4.2.5(astro@5.7.10(@types/node@22.15.3)(aws4fetch@1.0.20)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.6.0))
       '@astrojs/sitemap': 3.3.1
       '@pagefind/default-ui': 1.3.0
       '@types/hast': 3.0.4
       '@types/js-yaml': 4.0.9
       '@types/mdast': 4.0.4
-      astro: 5.7.8(@types/node@22.15.3)(aws4fetch@1.0.20)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.6.0)
-      astro-expressive-code: 0.41.2(astro@5.7.8(@types/node@22.15.3)(aws4fetch@1.0.20)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.6.0))
+      astro: 5.7.10(@types/node@22.15.3)(aws4fetch@1.0.20)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.6.0)
+      astro-expressive-code: 0.41.2(astro@5.7.10(@types/node@22.15.3)(aws4fetch@1.0.20)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.6.0))
       bcp-47: 2.1.0
       hast-util-from-html: 2.0.3
       hast-util-select: 6.0.3
@@ -4124,37 +4135,37 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@moonrepo/cli@1.35.1':
+  '@moonrepo/cli@1.35.4':
     dependencies:
       detect-libc: 2.0.4
     optionalDependencies:
-      '@moonrepo/core-linux-arm64-gnu': 1.35.1
-      '@moonrepo/core-linux-arm64-musl': 1.35.1
-      '@moonrepo/core-linux-x64-gnu': 1.35.1
-      '@moonrepo/core-linux-x64-musl': 1.35.1
-      '@moonrepo/core-macos-arm64': 1.35.1
-      '@moonrepo/core-macos-x64': 1.35.1
-      '@moonrepo/core-windows-x64-msvc': 1.35.1
+      '@moonrepo/core-linux-arm64-gnu': 1.35.4
+      '@moonrepo/core-linux-arm64-musl': 1.35.4
+      '@moonrepo/core-linux-x64-gnu': 1.35.4
+      '@moonrepo/core-linux-x64-musl': 1.35.4
+      '@moonrepo/core-macos-arm64': 1.35.4
+      '@moonrepo/core-macos-x64': 1.35.4
+      '@moonrepo/core-windows-x64-msvc': 1.35.4
 
-  '@moonrepo/core-linux-arm64-gnu@1.35.1':
+  '@moonrepo/core-linux-arm64-gnu@1.35.4':
     optional: true
 
-  '@moonrepo/core-linux-arm64-musl@1.35.1':
+  '@moonrepo/core-linux-arm64-musl@1.35.4':
     optional: true
 
-  '@moonrepo/core-linux-x64-gnu@1.35.1':
+  '@moonrepo/core-linux-x64-gnu@1.35.4':
     optional: true
 
-  '@moonrepo/core-linux-x64-musl@1.35.1':
+  '@moonrepo/core-linux-x64-musl@1.35.4':
     optional: true
 
-  '@moonrepo/core-macos-arm64@1.35.1':
+  '@moonrepo/core-macos-arm64@1.35.4':
     optional: true
 
-  '@moonrepo/core-macos-x64@1.35.1':
+  '@moonrepo/core-macos-x64@1.35.4':
     optional: true
 
-  '@moonrepo/core-windows-x64-msvc@1.35.1':
+  '@moonrepo/core-windows-x64-msvc@1.35.4':
     optional: true
 
   '@nodelib/fs.scandir@2.1.5':
@@ -4350,7 +4361,7 @@ snapshots:
 
   '@ungap/structured-clone@1.2.0': {}
 
-  '@vitest/coverage-v8@3.1.2(vitest@3.1.2(@types/debug@4.1.12)(@types/node@22.15.3)(yaml@2.6.0))':
+  '@vitest/coverage-v8@3.1.2(vitest@3.1.2(@types/debug@4.1.12)(@types/node@22.15.3))':
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@bcoe/v8-coverage': 1.0.2
@@ -4364,7 +4375,7 @@ snapshots:
       std-env: 3.9.0
       test-exclude: 7.0.1
       tinyrainbow: 2.0.0
-      vitest: 3.1.2(@types/debug@4.1.12)(@types/node@22.15.3)(yaml@2.6.0)
+      vitest: 3.1.2(@types/debug@4.1.12)(@types/node@22.15.3)
     transitivePeerDependencies:
       - supports-color
 
@@ -4507,16 +4518,16 @@ snapshots:
 
   astring@1.9.0: {}
 
-  astro-expressive-code@0.41.2(astro@5.7.8(@types/node@22.15.3)(aws4fetch@1.0.20)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.6.0)):
+  astro-expressive-code@0.41.2(astro@5.7.10(@types/node@22.15.3)(aws4fetch@1.0.20)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.6.0)):
     dependencies:
-      astro: 5.7.8(@types/node@22.15.3)(aws4fetch@1.0.20)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.6.0)
+      astro: 5.7.10(@types/node@22.15.3)(aws4fetch@1.0.20)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.6.0)
       rehype-expressive-code: 0.41.2
 
   astro-sst@3.1.3:
     dependencies:
       set-cookie-parser: 2.7.1
 
-  astro@5.7.8(@types/node@22.15.3)(aws4fetch@1.0.20)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.6.0):
+  astro@5.7.10(@types/node@22.15.3)(aws4fetch@1.0.20)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.6.0):
     dependencies:
       '@astrojs/compiler': 2.11.0
       '@astrojs/internal-helpers': 0.6.1
@@ -4569,8 +4580,8 @@ snapshots:
       unist-util-visit: 5.0.0
       unstorage: 1.16.0(aws4fetch@1.0.20)
       vfile: 6.0.3
-      vite: 6.3.3(@types/node@22.15.3)(yaml@2.6.0)
-      vitefu: 1.0.6(vite@6.3.3(@types/node@22.15.3)(yaml@2.6.0))
+      vite: 6.3.4(@types/node@22.15.3)(yaml@2.6.0)
+      vitefu: 1.0.6(vite@6.3.4(@types/node@22.15.3)(yaml@2.6.0))
       xxhash-wasm: 1.1.0
       yargs-parser: 21.1.1
       yocto-spinner: 0.2.2
@@ -4857,9 +4868,6 @@ snapshots:
   dequal@2.0.3: {}
 
   destr@2.0.5: {}
-
-  detect-libc@2.0.3:
-    optional: true
 
   detect-libc@2.0.4: {}
 
@@ -6636,7 +6644,7 @@ snapshots:
   sharp@0.33.5:
     dependencies:
       color: 4.2.3
-      detect-libc: 2.0.3
+      detect-libc: 2.0.4
       semver: 7.6.3
     optionalDependencies:
       '@img/sharp-darwin-arm64': 0.33.5
@@ -6757,22 +6765,31 @@ snapshots:
 
   space-separated-tokens@2.0.2: {}
 
-  sst-darwin-arm64@3.13.20:
+  sst-darwin-arm64@3.14.11:
     optional: true
 
-  sst-darwin-x64@3.13.20:
+  sst-darwin-x64@3.14.11:
     optional: true
 
-  sst-linux-arm64@3.13.20:
+  sst-linux-arm64@3.14.11:
     optional: true
 
-  sst-linux-x64@3.13.20:
+  sst-linux-x64@3.14.11:
     optional: true
 
-  sst-linux-x86@3.13.20:
+  sst-linux-x86@3.14.11:
     optional: true
 
-  sst@3.13.20:
+  sst-win32-arm64@3.14.11:
+    optional: true
+
+  sst-win32-x64@3.14.11:
+    optional: true
+
+  sst-win32-x86@3.14.11:
+    optional: true
+
+  sst@3.14.11:
     dependencies:
       aws-sdk: 2.1692.0
       aws4fetch: 1.0.18
@@ -6780,11 +6797,14 @@ snapshots:
       opencontrol: 0.0.6
       openid-client: 5.6.4
     optionalDependencies:
-      sst-darwin-arm64: 3.13.20
-      sst-darwin-x64: 3.13.20
-      sst-linux-arm64: 3.13.20
-      sst-linux-x64: 3.13.20
-      sst-linux-x86: 3.13.20
+      sst-darwin-arm64: 3.14.11
+      sst-darwin-x64: 3.14.11
+      sst-linux-arm64: 3.14.11
+      sst-linux-x64: 3.14.11
+      sst-linux-x86: 3.14.11
+      sst-win32-arm64: 3.14.11
+      sst-win32-x64: 3.14.11
+      sst-win32-x86: 3.14.11
     transitivePeerDependencies:
       - supports-color
 
@@ -7029,16 +7049,15 @@ snapshots:
       '@types/unist': 3.0.3
       vfile-message: 4.0.2
 
-  vite-node@3.1.2(@types/node@22.15.3)(yaml@2.6.0):
+  vite-node@3.1.2(@types/node@22.15.3):
     dependencies:
       cac: 6.7.14
       debug: 4.4.0
       es-module-lexer: 1.7.0
       pathe: 2.0.3
-      vite: 6.3.3(@types/node@22.15.3)(yaml@2.6.0)
+      vite: 5.4.18(@types/node@22.15.3)
     transitivePeerDependencies:
       - '@types/node'
-      - jiti
       - less
       - lightningcss
       - sass
@@ -7047,8 +7066,6 @@ snapshots:
       - sugarss
       - supports-color
       - terser
-      - tsx
-      - yaml
 
   vite@5.4.18(@types/node@22.15.3):
     dependencies:
@@ -7059,7 +7076,7 @@ snapshots:
       '@types/node': 22.15.3
       fsevents: 2.3.3
 
-  vite@6.3.3(@types/node@22.15.3)(yaml@2.6.0):
+  vite@6.3.4(@types/node@22.15.3)(yaml@2.6.0):
     dependencies:
       esbuild: 0.25.3
       fdir: 6.4.4(picomatch@4.0.2)
@@ -7072,11 +7089,11 @@ snapshots:
       fsevents: 2.3.3
       yaml: 2.6.0
 
-  vitefu@1.0.6(vite@6.3.3(@types/node@22.15.3)(yaml@2.6.0)):
+  vitefu@1.0.6(vite@6.3.4(@types/node@22.15.3)(yaml@2.6.0)):
     optionalDependencies:
-      vite: 6.3.3(@types/node@22.15.3)(yaml@2.6.0)
+      vite: 6.3.4(@types/node@22.15.3)(yaml@2.6.0)
 
-  vitest@3.1.2(@types/debug@4.1.12)(@types/node@22.15.3)(yaml@2.6.0):
+  vitest@3.1.2(@types/debug@4.1.12)(@types/node@22.15.3):
     dependencies:
       '@vitest/expect': 3.1.2
       '@vitest/mocker': 3.1.2(vite@5.4.18(@types/node@22.15.3))
@@ -7097,13 +7114,12 @@ snapshots:
       tinypool: 1.0.2
       tinyrainbow: 2.0.0
       vite: 5.4.18(@types/node@22.15.3)
-      vite-node: 3.1.2(@types/node@22.15.3)(yaml@2.6.0)
+      vite-node: 3.1.2(@types/node@22.15.3)
       why-is-node-running: 2.3.0
     optionalDependencies:
       '@types/debug': 4.1.12
       '@types/node': 22.15.3
     transitivePeerDependencies:
-      - jiti
       - less
       - lightningcss
       - msw
@@ -7113,8 +7129,6 @@ snapshots:
       - sugarss
       - supports-color
       - terser
-      - tsx
-      - yaml
 
   volar-service-css@0.0.62(@volar/language-service@2.4.8):
     dependencies:
