@@ -9,7 +9,7 @@ importers:
   .:
     devDependencies:
       '@biomejs/biome':
-        specifier: ^2.0.6
+        specifier: ^2.1.2
         version: 2.1.2
       '@moonrepo/cli':
         specifier: ^1.35.7
